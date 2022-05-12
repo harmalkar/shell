@@ -6,10 +6,10 @@
  * 
  */
 
-#include <stdio.h>  // TODO: for what?
+#include <stdio.h>
 #include <stdlib.h>
-#include <unistd.h> // for execvp and chdir
-#include <sys/wait.h> // for waitpid?
+#include <unistd.h>
+#include <sys/wait.h>
 #include <string.h>
 
 #define MAX_INPUT_SIZE          1000
